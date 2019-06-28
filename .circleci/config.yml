@@ -40,7 +40,7 @@ jobs:
       - deploy:
           name: deploy to aws
           command: |
-            apt install python-pip
+            sudo apt install python-pip
             pip install awscli
             export AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
             export AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
