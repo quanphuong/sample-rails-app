@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+This project is for test CI/CD on AWS with Codepipeline, and CodeDeploy
